@@ -1,9 +1,30 @@
 h1{
-			color:red;
+	color:red;
 }
 h2{
-			color:green;
+	color:green;
 }
-body {
-	background-color:black
+
+.logo {
+	width 130px;
+	background-color: black;
+}
+
+header {
+	background-color: #ffffff;
+}
+
+.meni {
+	
+}
+footer {
+	background-color: gray;
+}
+
+.glavni_kontejner {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 0px 0px 0px 350px;
+	margin: 100px 0px 100px 0px;
+	border: 5px dashed red;
 }
