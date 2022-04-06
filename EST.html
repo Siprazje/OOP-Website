@@ -1,29 +1,56 @@
 <html>
+
+	 <script>
+				function testFunction() {
+					document.getElementById("test").innerHTML = "<img src="nole.png" width="400px">";
+	 </script>
+			
+
 	<head>
 			<meta charset = "UTF8">
 			<title>Esports turnir</title>
 			<link rel="stylesheet" href="main.css">
 	</head>
 	
-	<body>
+		<body>
 		
-			<h1>JJZ</h1>
-			
-			<main>
-					<strong>
-							<h2>
-									Dobro dosli.
-							</h2>
-					</strong>
+			<header>
+				<img src="logo.jpg" width="100px" class="logo">
+				<nav>
+					<ul class="meni">
 					
-					<h2>
-							Ovde se mozete prijaviti za predstojeci turnir u _______
-					</h2>
-						  <img src="70.png" width="400px" height="134">
-			<p>
-					<a href="https:jjzmaj.edu.rs"> Jovina</a>
-			</p>
+					<li><a href="sajt.html">Pocetna</a></li>
+					
+					</ul>
+				</nav>
+			</header>
 			
-			</main>
+			<section class="glavni_kontejner">
+		
+				<h1>JJZ</h1>
 			
-	</body>
+				<main>
+						<strong>
+								<h2>
+										Dobro dosli.
+								</h2>
+						</strong>
+						
+						<button type="button" onclick="testFunction()">Klikni me ;) </button>
+						
+						<h2>
+								Ovde se mozete prijaviti za predstojeci turnir u _______
+						</h2>
+							<img src="70.png" width="400px" height="134">
+				<p>
+						<a href="https:jjzmaj.edu.rs"> Jovina</a>
+				</p>
+				<p id="test">...</p>
+			</section>
+				</main>
+			
+		</body>
+		
+	<footer>
+		Nesto
+	</footer>
