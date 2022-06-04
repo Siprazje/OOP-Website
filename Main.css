@@ -28,3 +28,14 @@ footer {
 	margin: 100px 0px 100px 0px;
 	border: 5px dashed red;
 }
+
+.div1{
+	display: flex;
+	
+}
+
+.div1 > div{
+	flex: 1;
+	margin: 5px;
+
+}
